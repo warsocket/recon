@@ -1,0 +1,1 @@
+Resolves dns-record to an ip and reverse lookups that, if the dns-name is diffrent, it reports that name.

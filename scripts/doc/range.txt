@@ -1,0 +1,1 @@
+Filter that emits all ip adrresses belogging to a range which has specified (trough comamndline parameters) tld's as abuse contact.

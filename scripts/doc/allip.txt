@@ -1,0 +1,1 @@
+Filter that accepts all ip adresses given to it.

@@ -1,0 +1,1 @@
+Does various types of dns queries on dns-names, and returns all domains found in the dns data.

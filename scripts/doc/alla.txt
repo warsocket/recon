@@ -1,0 +1,1 @@
+Filter that accepts all dns-names adresses given to it.

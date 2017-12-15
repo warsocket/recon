@@ -1,0 +1,1 @@
+Filter that only returns the dns-names which are (sub)domains of the provided tld's (trough commandline parameters).

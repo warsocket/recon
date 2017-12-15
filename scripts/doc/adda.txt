@@ -1,0 +1,1 @@
+Ignores input and adds domains supplied in commandline paramters.
