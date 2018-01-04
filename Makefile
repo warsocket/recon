@@ -1,4 +1,4 @@
 all:
 	docker build -t recon .
-rm: 
+purge:
 	docker rmi -f recon
