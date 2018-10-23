@@ -12,8 +12,12 @@ def is_subdomain(domain, subdomain):
 
 def get_whois(ip):
     assert(re.match("""[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+""", ip))  # refuing command injection
-    return subprocess.check_output(["/usr/bin/whois", ip])
 
+    try:
+        return subprocess.check_output(["/usr/bin/whois", ip])
+    except subprocess.CalledProcessError:
+        return ""
+        
 
 def get_whois_range(whois):
     return range_regex.search(whois).group(1)
